@@ -192,4 +192,127 @@
 .footer__right .footer__right-item h5{
     margin-bottom: 15px;
 }
+/* tablet */
+@media (min-width: 768px) and (max-width: 1023px) {.activity__body{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.activity__body .item{
+    flex-basis: 45%;
+}
+.contact{
+    flex-wrap: wrap;
+    margin-bottom: 300px;
+    justify-content: center;
+}
+.contact__left, .contact__right {
+    /* width: 60%; */
+    flex-basis: 60%;
+}
+.footer .footer__body{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.footer .footer__body .footer__left,
+.footer .footer__body .footer__right {
+    flex-basis: 80%;
+}
+}
+/* mobile phone */
+@media (min-width: 320px) and (max-width: 767px) {
+.header__nav{
+    flex-direction: column;
+    gap: 10px;
+}
+.activity__body{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.activity__body .item{
+    flex-basis: 90%;
+}
+.contact{
+    background-color: #F8E1DB;background-image: url('./img/mask.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: -400px;
+    background-size: cover;
+    height: 800px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.contact__left{
+    width: 100%;
+}
+.contact__left img{
+    width: 100%;
+}
+.contact__right{
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 0px;
+}
+.social{
+    display: flex;
+    gap: 10px;
+}
+.social .social__left{
+    width: 55%;
+}
+.social .social__right{
+    width: 40%;
+}
+.social .social__left h3,
+.social .social__right h3 {
+    font-size: 25px;
+    color: #8D8D8D;
+    margin-bottom: 20px;
+}
+.footer{
+    margin-top: 0px;
+    margin-bottom: 500px;
+    background-color: #F8E1DB;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding-top: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+.footer .footer__body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.footer__body .footer__left{
+    flex-basis: 100%;
+}
+.footer__body .footer__left h5{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.footer__body .footer__right{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.footer__right .footer__right-item{
+    width: 100%;
+}
+.footer__body .footer__right 
+.footer__right-item h5 {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+}
 
